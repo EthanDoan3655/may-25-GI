@@ -1,0 +1,18 @@
+#grid-row {
+    /* GRID LAYOUT */
+   display: grid;
+  
+   /*  SPECIFY COLUMNS */
+   grid-template-columns: auto auto auto auto ;
+  
+   /* SPECIFY ROWS */
+   grid-template-rows: 50 100px;
+  
+ }
+  
+ /* (B) GRID CELLS */
+ div.cell {
+   background: #fff600;
+   border: 1px solid #000;
+   padding: 10px;
+ }

@@ -1,0 +1,24 @@
+tr td
+{
+    background-color: #fff;
+  width:400px;
+  height:20px;
+  border: solid;
+}
+
+tr:nth-child(even) td:nth-child(odd), 
+tr:nth-child(odd) td:nth-child(even)
+{
+    background-color: #ff0000;
+}
+/*  EASY */
+.stars{
+background: #002768;
+width: 120px;
+height: 180px;
+margin-top:  -376px;
+}
+p{
+    color:#fff;
+    
+}
